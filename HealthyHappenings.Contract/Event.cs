@@ -5,6 +5,10 @@ using System.Text;
 
 namespace HealthyHappenings.Contract
 {
+	/// <summary>
+	/// This class represents and instance of an event.
+	/// We will be mainly using it to represent a health event. 
+	/// </summary>
 	public class Event
 	{
 		public long ID { get; set; }
