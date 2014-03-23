@@ -10,6 +10,11 @@ namespace HealthyHappenings.Contract
 	/// </summary>
 	public interface IHealthyHappeningService
 	{
+		/// <summary>
+		/// method to get events
+		/// </summary>
+		/// <param name="city"></param>
+		/// <returns></returns>
 		List<Event> GetByCity(string city);
 	}
 }
